@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Z80-Library")(type "KiCad")(uri "C:/Users/Simmons.James/Documents/Scripts and Code/ASM/Z80/Kludge-Z80/pcbs/kicad_libaries")(options "")(descr ""))
+)
