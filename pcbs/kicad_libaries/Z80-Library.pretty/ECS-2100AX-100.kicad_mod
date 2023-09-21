@@ -1,6 +1,6 @@
 (footprint "ECS-2100AX-100" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "ECS-2100AX-11.0592MHZ-1")
+  (descr "ECS-2100AX-10.0000MHZ-1")
   (tags "Crystal or Oscillator")
   (attr through_hole)
   (fp_text reference "Y**" (at 3.81 -3.81) (layer "F.SilkS")
