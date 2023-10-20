@@ -5,9 +5,8 @@ src/*
 !/src/README.md
 drivers/*
 !/drivers/README.md
-pcbs/backplane
 pcbs/uart_card
-
+pcbs/parts-list.csv
 TODO
 
 pcbs/**/*.000

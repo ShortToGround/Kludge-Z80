@@ -7,7 +7,7 @@ When I say "functional kernel" I mean a real (as real as you can get with a Z80)
 Programming wisdom says to write your code first and optimize later. I have no doubts that there are many places my code can be optimized.
 I don't have a full grasp of every instruction so I will try to get it running first, then go back and make it faster/better later.
 
-**I couldn't have finished this project without help from the user Erlend_LB6MI at #electronics on libera IRC or the help from the man behind the Zeal 8-Bit computer project.
+**Special thanks to the user Erlend_LB6MI at #electronics on libera IRC and the man behind the Zeal 8-Bit computer project for their guidance.
 Check out the Zeal 8-bit computer [here](https://zeal8bit.com). His project is seriously impressive and he even created his own VFS from scratch. His kernel is complete with syscalls and everything. This project is what re-inspired me to finish mine!**
 
 ## Current hardware list

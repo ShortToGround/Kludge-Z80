@@ -1,0 +1,23 @@
+(footprint "TestPoint_THTPad_D1.7mm_Drill1.0mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+  (tags "test point THT pad")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -1.998) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6ebb0bfa-9992-48f1-899a-a62222d000e0)
+  )
+  (fp_text value "TestPoint_THTPad_D1.7mm_Drill1.0mm" (at 0 2.05) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 030564b9-5cfc-4546-b119-8d62c7997977)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -2) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 914396e7-0ad8-429e-9926-a7b201f5858c)
+  )
+  (fp_circle (center 0 0) (end 1.2 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp b5bd3993-62d1-4e37-a361-67c1e2d1fe18))
+  (fp_circle (center 0 0) (end 1.2 0)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "F.Fab") (tstamp 7edd6b07-fcec-42f4-b67d-a8eadc91c4cf))
+  (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e0c0b42f-733f-4056-ba8e-80454c220172))
+)
