@@ -1,0 +1,9 @@
+v0.1 - First draft
+
+v0.2 - Added an active termination circuit and removed expansion bus
+
+v0.3 - Add 2 I/O ports to CPU and Mem for future use.
+
+v1.0 - Rearranged bus to help PCB routing make more sense and minimize vcc plane routing
+
+v1.0.1 - Replaced all "L3.60mm x D1.60mm" resistors with more common "L6.3mm x D2.5mm" resistors
