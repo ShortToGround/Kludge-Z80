@@ -33,9 +33,7 @@ I wanted this backplane to be "motherboard-like". At first I was even going to p
 
 I have designed it to support 5V at 2A load (actually has 3A rated power components!) with a big chunky sliding power switch. This should allow the use of hard disks in the future if they are 5V-only.
 
-NOTE: Because my backplane board length is so long AND the system clock is supplied on the bus directly, I worry about signal reflections. In an earlier revision I had active termination on-board but ironically that circuit extended my signals to the point where termination was 100% required.
-
-Without the active termination circuit on-board it hits a "grey area" mathematically (from what I gather) where termination may or may not be needed. So I opted to remove the termination circuit and just implement it as a daughter card if needed later.
+NOTE: Because my backplane board length is so long AND the system clock is supplied on the bus directly, I worry about signal reflections. So the backplane features an active termination on-board that holds all of the signals at 2.7V in a push-pull arrangement. 
 
 ## Card List
 ### Compact Flash Card
