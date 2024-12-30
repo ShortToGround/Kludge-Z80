@@ -11451,7 +11451,7 @@
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
 		(property "Reference" "J5"
-			(at 0 -8.8 90)
+			(at 5.26 -9.175 90)
 			(layer "F.SilkS")
 			(uuid "6be259e8-54a4-4e3b-ac9c-e5eded90fd9f")
 			(effects
@@ -13198,6 +13198,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "3.5mm"
+		(at 186.25 76.111191 270)
+		(layer "F.SilkS")
+		(uuid "52c4f56a-0199-450f-a806-796437f18fb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "74HCT00"
 		(at 149.125 113.45 90)
 		(layer "F.SilkS")
@@ -13310,6 +13322,18 @@
 		(at 193.37675 119.228572 90)
 		(layer "F.SilkS")
 		(uuid "b94fb232-c5ca-442d-a2eb-e26f74e800a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Address Map:\nRead/Write - 0x00\nLatch (WR) - 0x01"
+		(at 168.275 77.525 0)
+		(layer "F.SilkS")
+		(uuid "c83b8879-a110-4f53-8ecf-75eacf414c4e")
 		(effects
 			(font
 				(size 1 1)

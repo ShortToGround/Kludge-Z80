@@ -10068,7 +10068,7 @@
 	)
 	(rectangle
 		(start 218.44 124.46)
-		(end 313.69 170.18)
+		(end 312.42 176.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -10203,6 +10203,16 @@
 			)
 		)
 		(uuid "ac2f8b1e-6f78-49b8-922a-75ecd40b69b7")
+	)
+	(text "Read/Write - 0x00\nLatch (WR) - 0x01"
+		(exclude_from_sim no)
+		(at 265.938 170.942 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "bf2544c7-7f02-4e0a-8cba-d1943df183a9")
 	)
 	(text "AY-3-8910 Clock"
 		(exclude_from_sim no)
