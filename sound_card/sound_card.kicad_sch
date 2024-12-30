@@ -5,7 +5,7 @@
 	(uuid "ee6943c1-1337-4aa5-9473-175628d6f6c1")
 	(paper "B")
 	(title_block
-		(title "Kludge CPU Card")
+		(title "Kludge Sound Card")
 		(rev "1.0")
 	)
 	(lib_symbols
