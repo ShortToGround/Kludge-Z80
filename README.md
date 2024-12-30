@@ -43,7 +43,7 @@ However, in the case of the Z80 the I/O timing differences between the CF and Z8
 
 The solution is to properly delay the Z80 timings to fit the compact flash true IDE spec.
 
-Someone a lot smarter than me named Tadeusz Pycio's came up with a delay circuit to fix this issue.
+Someone a lot smarter than me named Tadeusz Pycio came up with a delay circuit to fix this issue.
 
 You can find his blog about it [here](http://www.vtsys.pl/interface-compact-flash/). If you want to read it in English you will need to enter it into google translate though. Google Translate does an excellent job though and its very understandable!
 
@@ -73,7 +73,9 @@ I referenced a LOT of other similar builds to piece it together.
 ### Protoboard Card
 A card used to prototype circuits with the Kludge bus.
 
-It's just a 38x33 array of 2.54mm spaced pin holes for prototyping.
+It's just a 38 x 32 array of 2.54mm spaced pin holes for prototyping.
+
+Why 38 x 32? Because its as much as I could fit in a 100mm x 100mm board to save fab costs :D
 
 ### PS/2 Card
 This card granted support for both a mouse and keyboard.
@@ -81,7 +83,7 @@ It uses a HT6542B to handle all of the PS/2 communication and timing.
 
 ### Real-time Clock Card
 Like the network card, this is just an SPI circuit as well but the 
-RTC IC is embedded on board and this runs a LOT slower than the network card circuit does
+RTC IC is embedded on board and this runs a LOT slower than the network card circuit does.
 
 ### Serial Card
 This card has a single 16550DN UART on-board for serial communication.
@@ -95,7 +97,6 @@ I am looking to add a second chip in V2 for 3 channel stereo output.
 This is centered around an Upduino v3.1 to drive a VGA display. 
 The Upduino uses a Lattice iCE40 UP5K UG48 FPGA.
 The verilog code for this is available in its own dedicated repo.
-
 
 ## Bill of Materials
 The list is pretty large for this whole project. I will compile it and update this later.
