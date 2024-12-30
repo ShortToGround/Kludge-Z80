@@ -1,0 +1,9 @@
+Version 1 is a simple 16k banking system that needs to be initialized first thing on boot, due to the '374's being undefined when first powered on.
+
+I would like to implement a varied banking setup with a masking I/O to allow from 2K up to 32K banks.
+This would be selectable on boot.
+
+Also bonus points if I add in circuitry that would have the RAM banking system default to a 32K ROM/RAM map on boot until banks are switched.
+Then it could vary between a bog standard Z80 setup all the way up to an OS that could have 2K mallocs for programs!
+
+I fear all of this wouldn't fit in my 100mm x 100mm constraints though.
