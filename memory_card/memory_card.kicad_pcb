@@ -182,11 +182,11 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "08c25825-32be-45fa-9d6d-a69b776016c1")
-		(at 148.64 55.125)
+		(at 133.42 92.65 -90)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C7"
-			(at 4.565 0 0)
+			(at 4.565 0 -90)
 			(layer "F.SilkS")
 			(uuid "7b1511b7-8694-4931-b35c-fae0eb07bb18")
 			(effects
@@ -197,7 +197,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 1.25 2.05 0)
+			(at 1.25 2.05 -90)
 			(layer "F.Fab")
 			(uuid "de42e2e1-32e9-4f85-805a-76bedc70047d")
 			(effects
@@ -208,7 +208,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -221,7 +221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -234,7 +234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -252,16 +252,6 @@
 		(sheetfile "memory_card.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.621 -0.92)
-			(end 1.879 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be2ef85f-54e8-4b5b-99d7-f16e58dd1ebe")
-		)
-		(fp_line
 			(start 0.621 0.92)
 			(end 1.879 0.92)
 			(stroke
@@ -272,14 +262,14 @@
 			(uuid "a5554773-9bf2-49b6-be25-dfc6933a51a0")
 		)
 		(fp_line
-			(start -1.05 -1.05)
-			(end -1.05 1.05)
+			(start 0.621 -0.92)
+			(end 1.879 -0.92)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "27973215-5770-4163-8059-91bf605e71da")
+			(layer "F.SilkS")
+			(uuid "be2ef85f-54e8-4b5b-99d7-f16e58dd1ebe")
 		)
 		(fp_line
 			(start -1.05 1.05)
@@ -292,16 +282,6 @@
 			(uuid "494dad72-b194-4535-b59c-512f24181205")
 		)
 		(fp_line
-			(start 3.55 -1.05)
-			(end -1.05 -1.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dea7a624-cf9f-47ef-a3f2-3add43df02c4")
-		)
-		(fp_line
 			(start 3.55 1.05)
 			(end 3.55 -1.05)
 			(stroke
@@ -312,14 +292,24 @@
 			(uuid "7bf6ee60-7dc3-4f72-a199-0d80e1a46c3a")
 		)
 		(fp_line
-			(start -0.25 -0.8)
-			(end -0.25 0.8)
+			(start -1.05 -1.05)
+			(end -1.05 1.05)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "5985fa00-2773-4a4e-8b46-61b0928c3cdf")
+			(layer "F.CrtYd")
+			(uuid "27973215-5770-4163-8059-91bf605e71da")
+		)
+		(fp_line
+			(start 3.55 -1.05)
+			(end -1.05 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dea7a624-cf9f-47ef-a3f2-3add43df02c4")
 		)
 		(fp_line
 			(start -0.25 0.8)
@@ -332,16 +322,6 @@
 			(uuid "4c9dd9e2-bfa8-4246-82e7-2cfe825a2e66")
 		)
 		(fp_line
-			(start 2.75 -0.8)
-			(end -0.25 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "66039bb0-b732-4911-a13f-16cb0d920b7c")
-		)
-		(fp_line
 			(start 2.75 0.8)
 			(end 2.75 -0.8)
 			(stroke
@@ -351,8 +331,28 @@
 			(layer "F.Fab")
 			(uuid "087b2624-8db6-4970-b30d-fdbf9115abfe")
 		)
+		(fp_line
+			(start -0.25 -0.8)
+			(end -0.25 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5985fa00-2773-4a4e-8b46-61b0928c3cdf")
+		)
+		(fp_line
+			(start 2.75 -0.8)
+			(end -0.25 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66039bb0-b732-4911-a13f-16cb0d920b7c")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 0)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "a4bd476f-9433-4a4f-8e4d-6c6f8ac32c5b")
 			(effects
@@ -363,7 +363,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -373,7 +373,7 @@
 			(uuid "6cb8034e-5e0d-4dda-bf4b-98eb767e2abc")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1625,12 +1625,227 @@
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
+		(uuid "3dffe487-fed3-434d-9875-b3b6ddb23565")
+		(at 174.04 123.815)
+		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
+		(property "Reference" "C11"
+			(at 1.25 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "4271314a-aed5-4fe1-8063-996696255015")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 1.25 2.05 0)
+			(layer "F.Fab")
+			(uuid "ce5aabd1-d49e-458f-86fa-22dd32650adc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "478f6e1a-0dbd-450b-80db-0209de3a705c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e8bbdff-e78c-4288-b0be-ec9d7c5c6f06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c13f676a-22f1-42af-ae1c-bd11543c94e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/04442f1d-b52e-4190-904a-04b56968d237")
+		(sheetname "Root")
+		(sheetfile "memory_card.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.621 -0.92)
+			(end 1.879 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4e72e45-57d1-491b-a907-3fb3658a95db")
+		)
+		(fp_line
+			(start 0.621 0.92)
+			(end 1.879 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9883ead6-b179-44df-ac1b-04adc88068eb")
+		)
+		(fp_line
+			(start -1.05 -1.05)
+			(end -1.05 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb6c12eb-7107-4a3a-b6cb-69eea887d5de")
+		)
+		(fp_line
+			(start -1.05 1.05)
+			(end 3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a404da8e-4d31-4f7b-8df4-62f3162e05ff")
+		)
+		(fp_line
+			(start 3.55 -1.05)
+			(end -1.05 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a773a90f-0de0-438f-82d9-76fedbf69a52")
+		)
+		(fp_line
+			(start 3.55 1.05)
+			(end 3.55 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ada17c83-780a-4e63-99e8-77c525c5c92b")
+		)
+		(fp_line
+			(start -0.25 -0.8)
+			(end -0.25 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8896e560-b943-424d-b412-2527f3ddab8e")
+		)
+		(fp_line
+			(start -0.25 0.8)
+			(end 2.75 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae5ec511-1eea-4f8c-b096-14cb9b1a79f9")
+		)
+		(fp_line
+			(start 2.75 -0.8)
+			(end -0.25 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ccbed04c-84e8-4b45-a998-08e4457c410b")
+		)
+		(fp_line
+			(start 2.75 0.8)
+			(end 2.75 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07585af0-5f02-49fe-8ba6-cdec9f00fd4b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 0 0)
+			(layer "F.Fab")
+			(uuid "bfe02c63-8117-43be-81dd-cf22f4d8dc40")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 28 "VCC")
+			(pintype "passive")
+			(uuid "3be06e21-6b84-4c6d-9486-3e845abf29b7")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "GND")
+			(pintype "passive")
+			(uuid "895436ae-4240-45b6-9e17-2792416343c8")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(layer "F.Cu")
 		(uuid "4b902b08-aa48-47d1-85ab-ca8d210d8549")
-		(at 133.42 92.65 -90)
+		(at 106.73 55.625)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -2.05 90)
+			(at 1.25 -2.05 180)
 			(layer "F.SilkS")
 			(uuid "3501a13b-91ae-4cc9-af5f-06e6db864d40")
 			(effects
@@ -1641,7 +1856,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 1.04 -1.99 90)
+			(at 1.04 -1.99 180)
 			(layer "F.Fab")
 			(uuid "5f1aa905-f872-44e6-8ecf-52b81ec447f1")
 			(effects
@@ -1652,7 +1867,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1665,7 +1880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1678,7 +1893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1696,16 +1911,6 @@
 		(sheetfile "memory_card.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.621 0.92)
-			(end 1.879 0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec620057-af07-4919-8a2a-c8bfd800982a")
-		)
-		(fp_line
 			(start 0.621 -0.92)
 			(end 1.879 -0.92)
 			(stroke
@@ -1716,24 +1921,14 @@
 			(uuid "21ae34b0-de61-4bee-a565-1a796d325598")
 		)
 		(fp_line
-			(start -1.05 1.05)
-			(end 3.55 1.05)
+			(start 0.621 0.92)
+			(end 1.879 0.92)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "28073efd-da96-41c6-af12-90ac5676b2b3")
-		)
-		(fp_line
-			(start 3.55 1.05)
-			(end 3.55 -1.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6b193ae2-c284-4ed5-8dfd-1c39821f6c94")
+			(layer "F.SilkS")
+			(uuid "ec620057-af07-4919-8a2a-c8bfd800982a")
 		)
 		(fp_line
 			(start -1.05 -1.05)
@@ -1746,6 +1941,16 @@
 			(uuid "57863ac6-a689-441e-a1ba-f3c0d65e7bd9")
 		)
 		(fp_line
+			(start -1.05 1.05)
+			(end 3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "28073efd-da96-41c6-af12-90ac5676b2b3")
+		)
+		(fp_line
 			(start 3.55 -1.05)
 			(end -1.05 -1.05)
 			(stroke
@@ -1756,24 +1961,14 @@
 			(uuid "26abc23b-e7de-4c2c-809b-895eaf49e203")
 		)
 		(fp_line
-			(start -0.25 0.8)
-			(end 2.75 0.8)
+			(start 3.55 1.05)
+			(end 3.55 -1.05)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "27ab033e-c290-4370-b077-e1a1831d6707")
-		)
-		(fp_line
-			(start 2.75 0.8)
-			(end 2.75 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a389b855-ead5-47c7-91c1-95cceb4a8617")
+			(layer "F.CrtYd")
+			(uuid "6b193ae2-c284-4ed5-8dfd-1c39821f6c94")
 		)
 		(fp_line
 			(start -0.25 -0.8)
@@ -1786,6 +1981,16 @@
 			(uuid "3b9f8b16-4c13-40af-a8ba-85f8ab523533")
 		)
 		(fp_line
+			(start -0.25 0.8)
+			(end 2.75 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "27ab033e-c290-4370-b077-e1a1831d6707")
+		)
+		(fp_line
 			(start 2.75 -0.8)
 			(end -0.25 -0.8)
 			(stroke
@@ -1795,8 +2000,18 @@
 			(layer "F.Fab")
 			(uuid "fc9012f9-1f34-4d79-9452-7aac4bef595b")
 		)
+		(fp_line
+			(start 2.75 0.8)
+			(end 2.75 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a389b855-ead5-47c7-91c1-95cceb4a8617")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 90)
+			(at 1.25 0 180)
 			(layer "F.Fab")
 			(uuid "86e53f13-0383-4aa9-b95b-0cf5ad5d032d")
 			(effects
@@ -1807,7 +2022,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1817,7 +2032,7 @@
 			(uuid "57f966f0-e74a-45ec-8ff3-195d592f49f9")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0 270)
+			(at 2.5 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4400,7 +4615,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "65c68c56-c4cc-4794-9e36-cab6f45ee991")
-		(at 176.58 81.935)
+		(at 148.64 55.125)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C2"
@@ -6364,7 +6579,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "8354713f-be1a-4493-b492-5141f73bc12d")
-		(at 106.73 72.13)
+		(at 176.58 81.935)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C6"
@@ -6579,7 +6794,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "ab94e1aa-8377-464e-9e98-2d2497b79ad4")
-		(at 176.58 95.865)
+		(at 176.58 62.85)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C3"
@@ -6808,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Value" "AS6C4008"
+		(property "Value" "AS6C4008-55PCN"
 			(at 6.755 40.48 0)
 			(layer "F.SilkS")
 			(uuid "687cef33-4780-4d3a-8a2d-58dfe51b9ee6")
@@ -7458,7 +7673,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/3d13848c-2ead-48cb-a4fa-a8a1539084a4")
+		(path "/9d97cabd-4deb-4807-97a0-49a7eb691457")
 		(sheetname "Root")
 		(sheetfile "memory_card.kicad_sch")
 		(attr through_hole)
@@ -7861,7 +8076,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "b8e82aee-54ec-47a8-ad90-02752a5aa1dc")
-		(at 174.04 123.815)
+		(at 148.64 72.13)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C5"
@@ -8076,7 +8291,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "bb87c8b3-d750-4af6-8f3c-39459e7e67e6")
-		(at 174.04 109.63)
+		(at 106.73 72.13)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C4"
@@ -8291,7 +8506,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "d9dbca24-c201-40a7-ab95-92accbd26111")
-		(at 148.64 72.13)
+		(at 176.58 95.865)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C10"
@@ -8506,7 +8721,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "f2d2a832-7407-40b7-b52d-6d338b86b5f2")
-		(at 106.73 55.625)
+		(at 174.04 109.63)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C9"

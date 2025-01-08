@@ -6952,6 +6952,12 @@
 		(uuid "1235dc7e-3680-480f-93b3-bea22c1be0c0")
 	)
 	(junction
+		(at 138.43 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "232d990b-b814-471a-a5d4-c9d4e3ff3039")
+	)
+	(junction
 		(at 124.46 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6962,6 +6968,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b0b3ced-f702-459e-bf14-da6cdbc125ef")
+	)
+	(junction
+		(at 138.43 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ff32910-5095-4760-9287-d003242f4e78")
 	)
 	(junction
 		(at 52.07 243.84)
@@ -9410,6 +9422,16 @@
 		)
 		(uuid "2a00eefa-94f0-4064-a045-b43c8561f995")
 	)
+	(wire
+		(pts
+			(xy 138.43 256.54) (xy 152.4 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bba65e8-cf68-4a19-8e63-613a8a17b849")
+	)
 	(bus
 		(pts
 			(xy 33.02 100.33) (xy 33.02 97.79)
@@ -9429,6 +9451,16 @@
 			(type default)
 		)
 		(uuid "2c94d441-7ea7-4a8d-9581-cfa9833fbf97")
+	)
+	(wire
+		(pts
+			(xy 138.43 248.92) (xy 152.4 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d06b306-6686-4ffd-81a3-95c96a81c5dd")
 	)
 	(bus
 		(pts
@@ -15751,6 +15783,76 @@
 			(project "memory_card"
 				(path "/7e612cd7-4917-4f54-9218-de1e55bc57f9"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04442f1d-b52e-4190-904a-04b56968d237")
+		(property "Reference" "C11"
+			(at 156.21 251.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 156.21 253.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 153.3652 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d5913e5-7e04-4afa-b06b-03e042474248")
+		)
+		(pin "2"
+			(uuid "a18a2160-fd26-462e-8482-1420a4fbb780")
+		)
+		(instances
+			(project "memory_card"
+				(path "/7e612cd7-4917-4f54-9218-de1e55bc57f9"
+					(reference "C11")
 					(unit 1)
 				)
 			)
