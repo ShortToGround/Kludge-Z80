@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "Kludge PS/2 Card")
-		(rev "1.0")
+		(rev "1.0.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74HCT04"
