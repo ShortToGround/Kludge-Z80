@@ -1325,7 +1325,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT04"
+		(property "Value" "74LS06"
 			(at 3.81 17.5246 90)
 			(layer "F.Fab")
 			(uuid "db5d6fb8-caef-4737-afde-79b90748d7a0")
@@ -1349,7 +1349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1362,7 +1362,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex Inverter"
+		(property "Description" "Inverter Open Collect"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1375,8 +1375,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/dac521c6-967c-42ed-84da-5d68e36efccd")
+		(property ki_fp_filters "DIP*W7.62mm*")
+		(path "/833b4ae9-df78-4d52-9acd-b3a23cedb453")
 		(sheetname "Root")
 		(sheetfile "ps2_card.kicad_sch")
 		(attr through_hole)
@@ -1559,7 +1559,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 56 "KB_DATA")
-			(pintype "output")
+			(pintype "open_collector")
 			(uuid "4ae8d6d0-411e-4eae-bd43-456ab6ddba3e")
 		)
 		(pad "3" thru_hole oval
@@ -1579,7 +1579,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 58 "MOUSE_CLK")
-			(pintype "output")
+			(pintype "open_collector")
 			(uuid "c3a7ddd7-5e3b-4177-b648-926bada00d7f")
 		)
 		(pad "5" thru_hole oval
@@ -1599,7 +1599,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 57 "MOUSE_DATA")
-			(pintype "output")
+			(pintype "open_collector")
 			(uuid "c1a347ca-d231-40d5-8e25-617d851d322d")
 		)
 		(pad "7" thru_hole oval
@@ -1620,7 +1620,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 59 "KB_CLK")
-			(pintype "output")
+			(pintype "open_collector")
 			(uuid "02dc66be-3695-48a9-bb36-e9a76d9979f9")
 		)
 		(pad "9" thru_hole oval
@@ -1640,7 +1640,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 70 "unconnected-(U2-Pad10)")
-			(pintype "output+no_connect")
+			(pintype "open_collector+no_connect")
 			(uuid "48911666-6a3e-4fb3-a06f-54fea43caa33")
 		)
 		(pad "11" thru_hole oval
@@ -1660,7 +1660,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 69 "unconnected-(U2-Pad12)")
-			(pintype "output+no_connect")
+			(pintype "open_collector+no_connect")
 			(uuid "4ce5b845-24ca-4f16-87bb-e9941b4afe62")
 		)
 		(pad "13" thru_hole oval
