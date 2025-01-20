@@ -1,0 +1,4 @@
+# 1.0 Initial Commit
+
+# 1.1 - Moved signals V_D6 through V_ADDR0 down 1 pin to leave gpio_37 open due to PLL usage
+      - Made some adjustments for the INT signal and level shifter

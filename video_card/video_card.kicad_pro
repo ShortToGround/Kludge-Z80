@@ -59,7 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "starved_thermal|145215000|142355000|2a77102a-c0a0-4954-8003-d9f5ef201be0|3bff3ad6-28ff-4614-be51-cbb2eae521a4|F.Cu"
+        "starved_thermal|160455000|142355000|2a77102a-c0a0-4954-8003-d9f5ef201be0|52dd7f7f-b25d-49e1-9fbb-5ee075d4bd93|F.Cu",
+        "starved_thermal|178235000|142355000|2a77102a-c0a0-4954-8003-d9f5ef201be0|8adb5a19-43c4-4ef2-ae30-e8a2489a430c|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -464,8 +465,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
